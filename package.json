@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio1.1",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Node.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://josuesilva16-admin@bitbucket.org/josuesilva16/ejercicio1.1.git"
+  },
+  "author": "Josue Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/josuesilva16/ejercicio1.1/issues"
+  },
+  "homepage": "https://bitbucket.org/josuesilva16/ejercicio1.1#readme"
+}
