@@ -3,12 +3,112 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Guia de Hoteles</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="jumbotron">
+      <h1 class="display-4">Hoteles</h1>
+      <p class="lead">Bienvenido a nuestra página de hoteles.</p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <h2>¿Dónde buscar los mejores hoteles?</h2>
+          <p>Descripción de la característica principal del producto 1.</p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2>¿Dónde puedo reservar?</h2>
+          <p>Descripción de la característica principal del producto 2.</p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2>¿Cómo pago?</h2>
+          <p>Descripción de la característica principal del producto 3.</p>
+        </div>
+      </div>
+      
+      <!-- Contenedor flex con flex-wrap para dividir en filas -->
+      <div class="d-flex flex-wrap mt-5">
+        <div class="col-sm-6 col-md-4 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+            <h2>Miami Beach</h2>
+            <p>Situado en las codiciadas playas de Miami, comida elegante y música caribeña, delfines y manatíes adornarán tu estadía.</p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-reserva">Reservar</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+          <h2>Mikonos-Grecia</h2>
+          <p>Playa blanca, cultura griega, alegría y diversión si eres una persona intrépida.</p>
+        </div>
+        <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+          <h2>Hawai- Honolulu</h2>
+          <p>Pacífico sur, la naturaleza y tu ser se reencontrarán en este lugar.</p>
+        </div>
+         <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+         </div>
+        </div>
+        <div class="col-sm-6 col-md-4 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+           <h2>Hotel Buenos Aires</h2>
+           <p>Tango, vino, pasión y elegancia, no te querrás ir.</p>
+          </div>
+          <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+          <h2>Acapulco</h2>
+          <p>Siente el picante mexicano y sus increíbles joyas naturales.</p>
+          </div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+        </div>
+        <div class="col-sm-3 col-md-2 p-3 card_hotel d-flex flex-column justify-content-between">
+          <div>
+           <h2>Cartagena</h2>
+           <p>En Cartagena de Indias disfrutarás de la alegría de la gente colombiana y te deleitarás con sus costumbres.</p>
+          </div>
+          <div>
+          <button class="btn btn-primary btn-reserva">Reservar</button>
+        </div>
+       </div>
+     </div>
+    </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          <a href="https://www.twitter.com" target="_blank">X</a>
+       </div>
+       <div class="col-sm-4">
+         <address>
+          <h2>Oficina Central</h2>
+          Col. Miraflores, Tegucigalpa Honduras.
+          +504 2245-2133
+          contacto@guiahoteles.com 
+         </address>
+       </div>
+       <div class="col-sm-4">
+        <a href="https://www.facebook.com" target="_blank">Nosotros</a>
+        <a href="https://www.instagram.com" target="_blank">Contacto</a>
+        <a href="https://www.twitter.com" target="_blank">Términos y Condiciones</a>
+       </div>
+    </footer>
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
