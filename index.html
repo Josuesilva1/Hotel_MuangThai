@@ -4,14 +4,39 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Guia de Hoteles</title>
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Términos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Jumbotron area-->    
     <div class="jumbotron">
       <h1 class="display-4">Hoteles</h1>
       <p class="lead">Bienvenido a nuestra página de hoteles.</p>
     </div>
+
+    <div class="container">
+      <nav aria-label ="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
 
     <div class="container">
       <div class="row">
@@ -90,9 +115,9 @@
     <footer>
       <div class="row">
         <div class="col-sm-4">
-          <a href="https://www.facebook.com" target="_blank">Facebook</a>
-          <a href="https://www.instagram.com" target="_blank">Instagram</a>
-          <a href="https://www.twitter.com" target="_blank">X</a>
+          <a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a><br>
+          <a href="https://www.twitter.com" target="_blank">X</a><br>
        </div>
        <div class="col-sm-4">
          <address>
@@ -103,14 +128,15 @@
          </address>
        </div>
        <div class="col-sm-4">
-        <a href="https://www.facebook.com" target="_blank">Nosotros</a>
-        <a href="https://www.instagram.com" target="_blank">Contacto</a>
-        <a href="https://www.twitter.com" target="_blank">Términos y Condiciones</a>
+        <a href="https://www.facebook.com" target="_blank">Nosotros</a><br>
+        <a href="https://www.instagram.com" target="_blank">Contacto</a><br>
+        <a href="https://www.twitter.com" target="_blank">Términos y Condiciones</a><br>
        </div>
     </footer>
 
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery, Popper.js y Bootstrap JS desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- Cambio: Utilizamos jQuery desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> <!-- Cambio: Utilizamos Popper.js desde CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Cambio: Utilizamos Bootstrap JS desde CDN -->
   </body>
 </html>

@@ -15,6 +15,7 @@ body {
 .jumbotron{
     background-color: var(--principal);
     color: var(--blanco);
+    margin-top: 56px;
 }
 
 .btn-primary{
