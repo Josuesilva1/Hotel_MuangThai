@@ -1,0 +1,424 @@
+:root {
+  --jmbtColor: #4335A7;
+  --principal: #5cb1df;
+  --blanco: #FFF6E9;
+  --secundario: #FF7F3E;
+  --escalaNegro: #010101;
+  --margen-principal: 10px;
+}
+
+body {
+  margin: 0; /* Sin márgenes externos */
+  padding: 0;
+  background-color: var(--blanco);
+  min-height: 100vh; /* Asegúrate de que el contenido ocupe al menos el alto de la ventana */
+  display: flex;
+  flex-direction: column; /* Para organizar el contenido en columnas */
+}
+
+body contacto{
+  margin-top: 70px; 
+
+}
+
+/* Navbar */
+.navbar {
+  min-height: 60px;
+  width: 100vw; /* Ocupa todo el ancho */
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item a:hover {
+  background-color: var(--blanco);
+  color: var(--escalaNegro);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.navbar-brand span {
+  margin-left: 10px;
+}
+
+.logo-navbar:hover{
+  background-color: var(--blanco);
+  color: var(--escalaNegro);
+}
+
+.nav-item a:hover {
+  background-color: var(--blanco);
+  color: var(--escalaNegro);
+}
+
+.logo-navbar {
+  height: 100%;
+  max-height: 80px;
+  width: 100%;
+}
+
+.logo-grande{
+  height: 40%;
+  max-height: 50px;
+  width: 30%;
+}
+
+.dropdown-toggle {
+  margin-right: 2rem;
+}
+
+.dropdown-menu{
+  margin-right: 4rem;
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  margin-top: 120px;
+  padding: 8rem 4rem;
+  background-image: url("../imagenes/jumbotron1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  text-align: start;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jumbotron::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.jumbotron h1,
+.jumbotron p {
+  position: relative;
+  z-index: 2;
+}
+
+/* jumbotron para demas */
+
+.jumbotron2 {
+  position: relative;
+  margin-top: 120px;
+  padding: 8rem 4rem;
+  background-image: url("../imagenes/fondo_jumbotron1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  text-align: start;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jumbotron2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.jumbotron2 h1,
+.jumbotron2 p {
+  position: relative;
+  z-index: 2;
+}
+
+/* reservas */
+.jumbotron3 {
+  position: relative;
+  margin-top: 120px;
+  padding: 8rem 4rem;
+  background-image: url("../imagenes/fondo_jumbotron3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  text-align: start;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jumbotron3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.jumbotron3 h1,
+.jumbotron3 p {
+  position: relative;
+  z-index: 2;
+}
+
+/* Eventos */
+.jumbotron4 {
+  position: relative;
+  margin-top: 120px;
+  padding: 8rem 4rem;
+  background-image: url("../imagenes/fondo_jumbotron4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  text-align: start;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jumbotron4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.jumbotron4 h1,
+.jumbotron4 p {
+  position: relative;
+  z-index: 2;
+}
+
+/* Restaurantes */
+.jumbotron5 {
+  position: relative;
+  margin-top: 120px;
+  padding: 8rem 4rem;
+  background-image: url("../imagenes/fondo_jumbotron5.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  text-align: start;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.jumbotron5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.jumbotron5 h1,
+.jumbotron5 p {
+  position: relative;
+  z-index: 2;
+}
+
+/*Botonoes*/
+button.enviar {
+  background-color: var(--escalaNegro);
+  color: var(--blanco);
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 0.5rem;
+  width: auto;
+}
+
+button.enviar:hover {
+  background-color: var(--blanco);
+  color: var(--escalaNegro);
+}
+
+.btn-sm {
+  width: 30% ;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 25rem;
+}
+
+ /*ver detaalles*/
+a.d-block.text-center {
+  color: var(--blanco) !important; 
+  text-decoration: none;  
+}
+
+a.d-block.text-center:hover {
+  text-decoration: underline; 
+}
+
+.breadcrumb{
+  margin-bottom: 3rem;
+}
+
+.row{
+  margin-top: auto;
+}
+
+/*body del carrusel*/
+.card-body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  height: 100%;
+}
+
+/*contenedores de imagenes e iconos*/
+.container{
+  background-size: cover; 
+  background-position: center; 
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  padding: 20px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartas{
+  background-image: url("../imagenes/fondo_Beds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  padding: 20px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+
+.cartasIndex{
+  background-image: url('../imagenes/fondo_BedsIndex.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--blanco);
+  position: relative;
+  width: 100%;
+  height: 100%; 
+  padding: 20px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.50);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.info{
+  max-width: 100%;
+  padding: 1rem 1rem;
+  margin-top: 2.5rem;
+  margin-left: auto;  
+
+}
+
+.container-icoons .icoonos {
+  width: 90px; 
+  height: 100px; 
+  display: block;
+  margin: 0 auto; 
+  margin-bottom: 3rem;
+}
+
+/* Estilo para las imágenes dentro del contenedor */
+.container img {
+  transition: transform 0.3s ease; 
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; 
+  border-radius: 10px; 
+}
+
+/* aumentar el tamaño */
+.container img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.container h4{
+  text-align: center;
+}
+
+
+.carousel-inner{
+  width: auto;
+  position: center;
+}
+.carousel-inner img {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+/* Footer */
+footer {
+  background-color: var(--escalaNegro);
+  color: var(--blanco);
+  width: 100vw; 
+  padding: 3%;
+  height: 100%;
+  margin-top: 3rem; 
+}
+
+footer a:hover{
+  color: var(--blanco);
+}
+
+
+
+
